@@ -9,7 +9,7 @@ df = df.iloc[:,3:]
 
 df = df[df['Length of Membership'] > 1]
 
-df.drop(columns=['Average session Length"], inplace=True)'])
+df.drop(columns=["Avg. Session Length"], inplace=True)
 
 df.to_csv("data/customers.csv", index=False)
 
